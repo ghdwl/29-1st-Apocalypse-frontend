@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import MainSliderComp from './MainSliderComp/MainSliderComp';
 import i1 from './pics/main_1.jpeg';
@@ -50,8 +49,7 @@ function MainSlider() {
       {sliderArr.map((item, index) => {
         return (
           <div
-            key={index}
-            // className="slide"
+            key={item}
             className={index === x ? 'slide active' : 'slide'}
             style={{ transform: `translateX(${x}%)` }}
           >
@@ -60,10 +58,10 @@ function MainSlider() {
         );
       })}
       <button className="goLeft" onClick={goLeft}>
-        <i className="fas fa-chevron-left" />
+        <img className="left" src="/images/left.svg" alt="arrow" />
       </button>
       <button className="goRight" onClick={goRight}>
-        <i className="fas fa-chevron-right" />
+        <img className="right" src="/images/right.svg" alt="arrow" />
       </button>
     </div>
   );

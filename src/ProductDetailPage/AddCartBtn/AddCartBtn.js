@@ -30,6 +30,7 @@ function AddCartBtn({ product }) {
           }
         });
     } else {
+      document.body.style.overflow = 'unset';
       navigate('/MyPage');
     }
   };

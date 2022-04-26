@@ -6,7 +6,7 @@ const WishList = () => {
     <div className="wishListNav">
       <div className="titleWishList">관심상품 리스트</div>
       <div className="content">비어있습니다.</div>
-      <button>쇼핑하기</button>
+      <button className="shoppinBtn">쇼핑하기</button>
     </div>
   );
 };

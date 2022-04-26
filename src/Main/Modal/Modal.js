@@ -39,7 +39,7 @@ function Modal({ productList, open, close }) {
         {open && (
           <div className="preview">
             <button className="close" onClick={close}>
-              <i class="fas fa-times" />
+              <img src="/images/close.svg" alt="close" />
             </button>
             <img className="previewImg" src={productList.image} alt="img" />
             <div className="previewInfo">

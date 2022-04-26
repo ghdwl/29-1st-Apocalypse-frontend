@@ -21,7 +21,7 @@ const TendenctTest = [
   {
     id: 2,
     className: 'second',
-    Question: '당신은 옛날사람이십니까?',
+    Question: '당신은 옛날 사람이십니까?',
     Answer: [
       {
         id: 1,
@@ -59,7 +59,7 @@ const TendenctTest = [
   {
     id: 4,
     className: 'fourth',
-    Question: '솔직히 더 이상 질문이 생각나는게 없으니 다 나가주세요',
+    Question: '솔직히 더 이상 질문이 생각나는 게 없으니 다 나가주세요',
     Answer: [
       {
         id: 1,

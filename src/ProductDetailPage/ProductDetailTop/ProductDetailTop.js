@@ -4,6 +4,8 @@ import AddCartBtn from '../AddCartBtn/AddCartBtn';
 import './ProductDetailTop.scss';
 
 function ProductDetailTop({ productDetail }) {
+  console.log(productDetail[0]);
+
   return (
     <div className="productDetailTop">
       <div className="leftColumn">

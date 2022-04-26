@@ -11,7 +11,7 @@ const ProductDetailList = () => {
   const [rangeBoxText, setRangeBoxText] = useState('정렬하기');
 
   useEffect(() => {
-    fetch('http://3.34.199.69:8080/products/categories')
+    fetch('data/categoriesData.json')
       .then(res => res.json())
       .then(result => {
         setFilterList(result.Category);
@@ -19,7 +19,7 @@ const ProductDetailList = () => {
   }, []);
 
   useEffect(() => {
-    fetch('http://3.34.199.69:8080/products')
+    fetch('/data/productData.json')
       .then(res => res.json())
       .then(result => {
         setProductList(result.Product);
@@ -63,7 +63,7 @@ const ProductDetailList = () => {
   };
 
   const ResetRange = () => {
-    fetch('/data/commentDataList.json')
+    fetch('/data/productData.json')
       .then(res => res.json())
       .then(result => setProductList(result.Product));
     setRangeBoxText('정렬하기');

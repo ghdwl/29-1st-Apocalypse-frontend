@@ -48,25 +48,29 @@ const MyPage = () => {
           <div className="titleMyPage">로그인</div>
           <div className="loginBox">
             <input
+              className="loginInput"
               name="id"
               type="email"
               placeholder="이메일 주소"
               onInput={handleInput}
             />
             <input
+              className="loginInput"
               name="password"
               type="password"
               placeholder="비밀번호"
               onInput={handleInput}
               onKeyUp={doEnter}
             />
-          </div>
-          <div className="findPassWord">비밀번호 찾기</div>
-          <button onClick={goToMain}>로그인</button>
-          <div className="under">
-            <div className="text">아직 회원이 아니신가요?</div>
-            <div className="join">
-              <Link to="/MyPage">회원가입</Link>
+            <a href="#" className="findPassWord">
+              비밀번호 찾기
+            </a>
+            <button onClick={goToMain}>로그인</button>
+            <div className="under">
+              <div className="text">아직 회원이 아니신가요?</div>
+              <div className="join">
+                <Link to="/MyPage">회원가입</Link>
+              </div>
             </div>
           </div>
         </div>

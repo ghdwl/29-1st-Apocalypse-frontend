@@ -9,9 +9,17 @@ function Bookmark({ productList }) {
     <div className="bookmark">
       <div className="bookmarkIcon" onClick={() => setBookmark(!bookmark)}>
         {bookmark ? (
-          <i class="fas fa-bookmark" />
+          <img
+            class="wishListOn"
+            src="/images/wish-list-on.svg"
+            alt="wish list"
+          />
         ) : (
-          <i class="far fa-bookmark" />
+          <img
+            class="wishListOff"
+            src="/images/wish-list.svg"
+            alt="wish list"
+          />
         )}
       </div>
     </div>

@@ -35,6 +35,9 @@ function Nav() {
 
   return (
     <header className="nav">
+      <div className="centerNavBox">
+        <img className="logo" src="/images/jongmalone-logo.svg" alt="logo" />
+      </div>
       <div className="mainNav">
         <div
           className={
@@ -62,25 +65,30 @@ function Nav() {
             성향분석
           </div>
         </div>
-        <div className="centerNavBox" onClick={goToMain}>
-          <div className="mainTitle">APOCALYPSE</div>
-          <div className="subTitle">WECODE</div>
-        </div>
+        <div className="logoWrap" onClick={goToMain} />
         <div className="rightNavBox">
-          <i
-            className="fas fa-search"
+          <img
+            className="navIcon"
+            src="/images/search.svg"
+            alt="search"
             onMouseOver={() => OpenSuvNav('searchNav')}
           />
-          <i
-            className="far fa-user"
+          <img
+            className="navIcon"
+            src="/images/mypage.svg"
+            alt="mypage"
             onMouseOver={() => OpenSuvNav('myPageNav')}
           />
-          <i
-            className="far fa-bookmark"
+          <img
+            className="navIcon"
+            src="/images/wish-list.svg"
+            alt="wish list"
             onMouseOver={() => OpenSuvNav('wishListNav')}
           />
-          <i
-            className="fas fa-shopping-basket"
+          <img
+            className="navIcon"
+            src="/images/cart.svg"
+            alt="cart"
             onMouseOver={() => OpenSuvNav('shoppingBasketNav')}
           />
         </div>

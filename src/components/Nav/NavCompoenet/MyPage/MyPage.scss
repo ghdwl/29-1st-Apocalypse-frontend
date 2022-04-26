@@ -1,37 +1,45 @@
+@import '../../../../styles/variables.scss';
+
 .myPageNavBar {
   .myPageNav {
+    padding: 0px 44px 48px 44px;
+    font-size: $fontsize3;
+
     .myPageLogin {
       .titleMyPage {
-        margin: 30px;
-        font-weight: bolder;
+        padding: 32px 0px;
+        font-weight: 600;
       }
 
       .loginBox {
         display: flex;
-        margin: 30px;
-        margin-bottom: 0px;
         flex-direction: column;
+        align-items: center;
 
-        input {
-          margin-bottom: 20px;
+        .loginInput {
+          margin-bottom: 24px;
           padding: 10px;
-          height: 40px;
-          border: 0.5px solid gray;
+          width: 100%;
+          height: 46px;
+          border: 1px solid #bebdbd;
+          outline: none;
+          &:hover {
+            border: 1px solid black;
+          }
         }
       }
 
       .findPassWord {
-        margin: 30px;
-        margin-top: 0px;
-        text-decoration: underline;
+        padding-bottom: 32px;
+        font-size: $fontsize3;
       }
 
       button {
-        margin: 30px;
-        margin-top: 0;
-        height: 40px;
-        width: 85%;
+        margin: 24px 0px;
+        height: 48px;
+        width: 100%;
         color: white;
+        border: none;
         background-color: black;
       }
 

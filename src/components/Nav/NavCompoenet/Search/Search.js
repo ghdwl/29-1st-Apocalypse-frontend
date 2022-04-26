@@ -31,14 +31,14 @@ const Search = () => {
   // );
 
   const doHelp = () => {
-    alert('저희는 그렇게 친절하지않습니다.');
+    alert('저희는 그렇게 친절하지 않습니다.');
   };
 
   return (
     <div className="searchNav">
       <input
         type="text"
-        placeholder="찾으시는 상품을 입력하여주세요"
+        placeholder="찾으시는 상품을 입력하여 주세요."
         onChange={searchProduct}
         onKeyUp={goSearch}
       />

@@ -7,8 +7,10 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footerContentList">
-        {FOOTER_DATA.map((footerContent, idx) => {
-          return <FooterContent key={idx} footerContent={footerContent} />;
+        {FOOTER_DATA.map(footerContent => {
+          return (
+            <FooterContent key={footerContent} footerContent={footerContent} />
+          );
         })}
       </div>
     </footer>

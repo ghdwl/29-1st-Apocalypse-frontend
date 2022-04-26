@@ -1,13 +1,14 @@
 {
   "message": "SUCCESS",
-  "result": [
+  "Category": [
     {
-      "category_name": "무기",
       "id": 1,
+      "category_name": "무기",
       "subcategory_list": [
         {
           "id": 1,
-          "name": "근접 무기",
+          "name": "근접",
+          "subcategory_image": "test.jpg",
           "product_list": [
             {
               "id": 1,
@@ -29,7 +30,8 @@
         },
         {
           "id": 2,
-          "name": "원거리 무기",
+          "name": "원거리",
+          "subcategory_image": "test.jpg",
           "product_list": [
             {
               "id": 3,
@@ -64,6 +66,7 @@
         {
           "id": 8,
           "name": "보조기기",
+          "subcategory_image": "test.jpg",
           "product_list": [
             {
               "id": 14,
@@ -78,28 +81,53 @@
       ]
     },
     {
-      "category_name": "생필품",
       "id": 2,
+      "category_name": "생필품",
       "subcategory_list": [
         {
           "id": 7,
           "name": "식량",
-          "product_list": []
+          "subcategory_image": "test.jpg",
+          "product_list": [
+            {
+              "id": 22,
+              "name": "컵라면"
+            },
+            {
+              "id": 23,
+              "name": "통조림"
+            }
+          ]
         },
         {
           "id": 9,
           "name": "의류",
-          "product_list": []
+          "subcategory_image": "test.jpg",
+          "product_list": [
+            {
+              "id": 24,
+              "name": "판초우의"
+            },
+            {
+              "id": 25,
+              "name": "디지털무늬상의"
+            },
+            {
+              "id": 26,
+              "name": "디지털무늬하의"
+            }
+          ]
         }
       ]
     },
     {
-      "category_name": "방어구",
       "id": 3,
+      "category_name": "방어구",
       "subcategory_list": [
         {
           "id": 4,
           "name": "방탄모",
+          "subcategory_image": "test.jpg",
           "product_list": [
             {
               "id": 16,
@@ -113,7 +141,8 @@
         },
         {
           "id": 5,
-          "name": "방탄복",
+          "name": "방탄조끼",
+          "subcategory_image": "test.jpg",
           "product_list": [
             {
               "id": 18,
@@ -128,12 +157,13 @@
       ]
     },
     {
-      "category_name": "구급품",
       "id": 4,
+      "category_name": "구급품",
       "subcategory_list": [
         {
           "id": 3,
           "name": "치료",
+          "subcategory_image": "test.jpg",
           "product_list": [
             {
               "id": 12,
@@ -148,7 +178,17 @@
         {
           "id": 6,
           "name": "해독제",
-          "product_list": []
+          "subcategory_image": "test.jpg",
+          "product_list": [
+            {
+              "id": 20,
+              "name": "아트로핀"
+            },
+            {
+              "id": 21,
+              "name": "아드레날린"
+            }
+          ]
         }
       ]
     }

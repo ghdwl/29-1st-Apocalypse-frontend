@@ -79,9 +79,9 @@ const Tendency = () => {
               style={{ display: 'none' }}
             >
               <div className="questionBox">
-                <div>
-                  Q0{com.id}. {com.Question}
-                </div>
+                <p className="questionTitle">
+                  {com.id}. {com.Question}
+                </p>
               </div>
               <div>
                 {com.Answer.map(com => {
@@ -107,7 +107,7 @@ const Tendency = () => {
         <button onClick={OpenResult}>결과 확인</button>
       </div>
       <button className={resetButton ? 'reset' : 'resetHide'} onClick={doReset}>
-        X
+        <img src="/images/close.svg" alt="close" />
       </button>
       <div className={resultProduct ? 'resultProduct' : 'resultProductHide'}>
         {product && <TendecyProduct product={product} />}

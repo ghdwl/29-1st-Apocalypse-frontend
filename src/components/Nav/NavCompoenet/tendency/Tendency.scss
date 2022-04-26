@@ -1,7 +1,14 @@
+@import '../../../../styles/variables.scss';
+
 @mixin buttonScss {
-  margin: 10px 10px 0px 10px;
-  width: 100px;
-  height: 30px;
+  padding: 0px 30px;
+  width: 305px;
+  height: 48px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: $fontsize3;
+  cursor: pointer;
 }
 
 .tendencyDetail {
@@ -15,14 +22,15 @@
 
   .imformationBox {
     .imformation {
-      margin: auto 30px;
-      padding: 10px 30px;
+      margin-bottom: 40px;
       align-items: center;
+      font-family: $title-font;
     }
 
     .startButton {
       margin: auto 30px;
-      padding: 10px 30px;
+      padding: 0px 30px;
+      @include buttonScss;
     }
   }
 
@@ -36,9 +44,22 @@
       justify-content: center;
     }
 
+    .questionTitle {
+      margin-bottom: 30px;
+      font-size: 16px;
+      font-family: $title-font;
+    }
+
     .buttonBox {
       Button {
+        margin: 5px 0px 10px 0px;
         @include buttonScss;
+      }
+
+      :hover {
+        background-color: #d7d8d6;
+        border: 1px solid black;
+        color: black;
       }
     }
   }
@@ -49,7 +70,9 @@
 
   .resultInfoBox {
     .resultInfo {
-      font-weight: bold;
+      margin-bottom: 30px;
+      font-size: 16px;
+      font-family: $title-font;
     }
 
     button {
@@ -63,10 +86,10 @@
 
   .reset {
     position: absolute;
-    top: 0px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
     border: none;
     font-size: 32px;
     background-color: #d7d8d6;
@@ -79,10 +102,12 @@
 
   .resultProduct {
     cursor: pointer;
+
     img {
       width: 200px;
       height: fit-content;
     }
+
     div {
       margin-top: 30px;
     }

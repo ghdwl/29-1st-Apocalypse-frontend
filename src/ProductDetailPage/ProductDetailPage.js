@@ -4,7 +4,7 @@ import Benefit from './Benefit/Benefit';
 import Product from './Product/Product';
 import ProductDetailTop from './ProductDetailTop/ProductDetailTop';
 import ProductDetailInfo from './ProductDetailInfo/ProductDetailInfo';
-import ProductDetailItem from './ProductDetailItem/ProductDetailItem';
+import MAIN_DATA from '../Main/MainData';
 import './ProductDetailPage.scss';
 
 function ProductDetailPage() {
@@ -14,7 +14,7 @@ function ProductDetailPage() {
   const params = useParams('');
 
   useEffect(() => {
-    fetch('http://3.34.199.69:8080/products?category=무기')
+    fetch('/data/productData.json')
       .then(res => res.json())
       .then(data => {
         setProduct(data.Product);
@@ -22,10 +22,14 @@ function ProductDetailPage() {
   }, []);
 
   useEffect(() => {
-    fetch(`http://3.34.199.69:8080/products/${params.productid}`)
+    window.scrollTo(0, 0);
+    document.body.style.overflow = 'unset';
+    fetch(`/data/productDetailData.json`)
+      // fetch(`http://3.34.199.69:8080/products/${params.productid}`)
       .then(res => res.json())
       .then(data => {
-        setProductDetail(data.product);
+        const res = data.product[0];
+        setProductDetail(res[params.productid * 1 - 1]);
       });
   }, [params]);
 
@@ -38,8 +42,6 @@ function ProductDetailPage() {
     e.preventDefault();
     carousel.current.scrollLeft += carousel.current.offsetWidth;
   };
-
-  // if (!product || !product.length) return null;
 
   return (
     <div className="productDetailPage">
@@ -63,20 +65,6 @@ function ProductDetailPage() {
         <ProductDetailInfo productDetail={productDetail} />
       </div>
 
-      <div className="productItemList">
-        {productDetail.id &&
-          productDetail.components.map(com => {
-            return (
-              <ProductDetailItem
-                productDetail={com}
-                data={productDetail}
-                key={com.id}
-              />
-            );
-          })}
-      </div>
-
-      <div className="line" />
       <img
         className="lazyImg"
         alt="img"
@@ -85,7 +73,7 @@ function ProductDetailPage() {
 
       <div className="productList">
         <button className="arrow" onClick={handleLeftClick}>
-          <i className="fas fa-chevron-left" />
+          <img className="left" src="/images/left.svg" alt="arrow" />
         </button>
         <div className="carousel" ref={carousel}>
           {product.length > 0 &&
@@ -94,22 +82,19 @@ function ProductDetailPage() {
             })}
         </div>
         <button className="arrow" onClick={handleRightClick}>
-          <i className="fas fa-chevron-right" />
+          <img className="right" src="/images/right.svg" alt="arrow" />
         </button>
       </div>
 
       <div className="benefitList">
-        <Benefit
-          title="무기 포장"
-          explain="시그니처 박스에 정성스럽게 포장해 드립니다."
-        />
-        <div className="line" />
-        <Benefit title="체험" explain="종말론의 새로운 무기를 경험해보세요." />
-        <div className="line" />
-        <Benefit
-          title="무료 배송"
-          explain="파괴력 있는 무기를 전달해 드립니다."
-        />
+        {MAIN_DATA[0].benefit.map(data => {
+          return (
+            <>
+              <div className={data.line} />
+              <Benefit data={data} />
+            </>
+          );
+        })}
       </div>
     </div>
   );

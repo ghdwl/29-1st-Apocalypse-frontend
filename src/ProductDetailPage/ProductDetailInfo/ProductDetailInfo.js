@@ -12,11 +12,13 @@ function ProductDetailInfo({ productDetail }) {
       }}
     >
       <div className="infoHeader">
-        <h2 className="title">{productDetail.how_to_use}</h2>
+        <h2 className="title">사용방법</h2>
         <button className="productInfoBtn">
-          <i
-            className={viewInfo ? 'fas fa-chevron-down' : 'fas fa-chevron-up'}
-          />
+          {viewInfo ? (
+            <img src="/images/left.svg" alt="down" className="down" />
+          ) : (
+            <img src="/images/right.svg" alt="up" className="up" />
+          )}
         </button>
       </div>
       {viewInfo && <p className="info">{productDetail.description}</p>}
