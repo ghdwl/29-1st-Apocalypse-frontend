@@ -3,13 +3,13 @@
 .footerContent {
   display: flex;
   flex-direction: column;
-  width: 100%;
   padding: 60px 0px 0px 20px;
+  width: 100%;
   font-size: $fontsize3;
 
   a {
-    text-decoration-line: none;
     color: inherit;
+    text-decoration-line: none;
   }
 
   .footerContentTitle {

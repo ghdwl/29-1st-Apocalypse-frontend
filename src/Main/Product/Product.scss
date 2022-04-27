@@ -7,22 +7,22 @@
     align-items: center;
   }
 
-  width: 419px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 419px;
 
   .productBox {
+    position: relative;
+    margin: 4px 0px;
     width: 420px;
     height: 420px;
-    margin: 4px 0px;
-    position: relative;
 
     .bookmark {
       position: absolute;
+      top: 10px;
       right: 20px;
       font-size: 20px;
-      top: 10px;
     }
 
     .productImg {
@@ -36,19 +36,19 @@
   }
 
   .badge {
+    @include flex-center;
     margin-bottom: 12px;
+    padding: 9px 0px;
     width: 192px;
     font-size: $fontsize4;
-    padding: 9px 0px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    @include flex-center;
     letter-spacing: 2px;
   }
 
   .korName {
-    height: 14px;
     margin: 10px 0px;
+    height: 14px;
   }
 
   .engName {

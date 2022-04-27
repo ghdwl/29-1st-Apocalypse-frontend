@@ -7,10 +7,10 @@
     align-items: center;
   }
 
-  width: 298px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 298px;
 
   .productBox {
     position: relative;
@@ -38,13 +38,13 @@
   }
 
   .badge {
+    @include flex-center;
     margin-bottom: 12px;
+    padding: 9px 0px;
     width: 192px;
     font-size: $fontsize4;
-    padding: 9px 0px;
     border-top: 1px solid $borderColor;
     border-bottom: 1px solid $borderColor;
-    @include flex-center;
     letter-spacing: 2px;
   }
 

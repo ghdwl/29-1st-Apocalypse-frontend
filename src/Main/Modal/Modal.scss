@@ -14,35 +14,35 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 99;
     background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99;
   }
 
   .previewImg {
+    margin-right: 60px;
     width: 326px;
     height: fit-content;
-    margin-right: 60px;
   }
 
   .preview {
+    @include flex-center;
     position: absolute;
-    bottom: 0px;
+    padding: 20px 0px;
     width: 100%;
     height: 450px;
-    padding: 20px 0px;
+    bottom: 0px;
     background-color: #d7d8d6;
-    @include flex-center;
-    text-align: left;
     animation: modal-show 0.3s;
-    overflow: hidden;
     font-size: $fontsize3;
+    text-align: left;
+    overflow: hidden;
   }
 
   .close {
     position: absolute;
+    width: 30px;
     right: 20px;
     top: 20px;
-    width: 30px;
     background: none;
     border: none;
     &:hover {
@@ -54,19 +54,19 @@
     width: 326px;
 
     .classify {
-      font-size: $fontsize4;
       padding-bottom: 13px;
+      font-size: $fontsize4;
     }
 
     .previewTitle {
+      margin: 16px 0px;
       font-family: $title-font;
       font-size: $fontsize2;
-      margin: 16px 0px;
     }
 
     .explain {
-      line-height: 16px;
       margin: 20px 0px;
+      line-height: 16px;
     }
 
     .price {
@@ -81,9 +81,9 @@
       .bookmark {
         margin-right: 10px;
       }
-      text-align: right;
       margin-top: 30px;
       padding-bottom: 2px;
+      text-align: right;
     }
   }
 
@@ -94,12 +94,12 @@
   }
   @keyframes modal-show {
     from {
-      opacity: 0;
       margin-top: -50px;
+      opacity: 0;
     }
     to {
-      opacity: 1;
       margin-top: 0;
+      opacity: 1;
     }
   }
   @keyframes modal-bg-show {

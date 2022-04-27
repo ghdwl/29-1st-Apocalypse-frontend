@@ -7,8 +7,8 @@
 }
 
 .productDetailPage {
-  flex-direction: column;
   @include flex-center;
+  flex-direction: column;
 
   .headerImg {
     width: 100%;
@@ -84,16 +84,16 @@
   }
 
   .productList {
-    padding-top: 80px;
     @include flex-center;
+    padding-top: 80px;
     max-width: 1214px;
 
     .carousel {
       display: flex;
       justify-content: start;
+      transition: transform 1s;
       overflow-x: auto;
       scroll-behavior: smooth;
-      transition: transform 1s;
 
       &::-webkit-scrollbar {
         display: none;
