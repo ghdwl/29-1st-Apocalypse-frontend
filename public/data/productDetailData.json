@@ -8,7 +8,8 @@
         "price": "750000.00",
         "description": "모터로 자잘한 톱날들이 달린 사슬을 돌려 절단하는 톱형 절삭 공구",
         "how_to_use": "사용방법",
-        "images": "/images/product/1.png"
+        "images": "/images/product/1.png",
+        "lazy_image": "https://images.unsplash.com/photo-1421992908452-9d47eb2b68d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
       },
       {
         "id": 2,
@@ -17,7 +18,8 @@
         "price": "150000.00",
         "description": "어떤 상황에서도 믿음직한 해결사",
         "how_to_use": "사용방법",
-        "images": "/images/product/2.png"
+        "images": "/images/product/2.png",
+        "lazy_image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 3,
@@ -26,7 +28,8 @@
         "price": "100000.00",
         "description": "혁명동지들에겐 마음의 고향 같은 소총",
         "how_to_use": "사용방법",
-        "images": "/images/product/3.png"
+        "images": "/images/product/3.png",
+        "lazy_image": "https://images.unsplash.com/photo-1581469096017-fb6aa4fba63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 4,
@@ -35,7 +38,8 @@
         "price": "110000.00",
         "description": "대한민국 국군의 제식 소총",
         "how_to_use": "사용방법",
-        "images": "/images/product/4.png"
+        "images": "/images/product/4.png",
+        "lazy_image": "https://images.unsplash.com/photo-1421992908452-9d47eb2b68d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
       },
       {
         "id": 5,
@@ -44,7 +48,8 @@
         "price": "20000.00",
         "description": "뼈 자르는 덴 이만한 게 없지! 아, 사람 말고...",
         "how_to_use": "사용방법",
-        "images": "/images/product/5.png"
+        "images": "/images/product/5.png",
+        "lazy_image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 6,
@@ -53,7 +58,8 @@
         "price": "120000.00",
         "description": "역시 기술의 독일제!",
         "how_to_use": "사용방법",
-        "images": "/images/product/6.png"
+        "images": "/images/product/6.png",
+        "lazy_image": "https://images.unsplash.com/photo-1581469096017-fb6aa4fba63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 7,
@@ -62,7 +68,8 @@
         "price": "100000.00",
         "description": "면도에 딱!",
         "how_to_use": "사용방법",
-        "images": "/images/product/7.png"
+        "images": "/images/product/7.png",
+        "lazy_image": "https://images.unsplash.com/photo-1421992908452-9d47eb2b68d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
       },
       {
         "id": 8,
@@ -71,7 +78,8 @@
         "price": "120000.00",
         "description": "혁명동지들을 위한 한정판!",
         "how_to_use": "사용방법",
-        "images": "/images/product/8.png"
+        "images": "/images/product/8.png",
+        "lazy_image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 9,
@@ -80,7 +88,8 @@
         "price": "140000.00",
         "description": "대한민국 국군의 제식 소총의 재탄생",
         "how_to_use": "사용방법",
-        "images": "/images/product/9.png"
+        "images": "/images/product/9.png",
+        "lazy_image": "https://images.unsplash.com/photo-1581469096017-fb6aa4fba63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 10,
@@ -89,7 +98,8 @@
         "price": "900000.00",
         "description": "현대식 기관단총",
         "how_to_use": "사용방법",
-        "images": "/images/product/10.png"
+        "images": "/images/product/10.png",
+        "lazy_image": "https://images.unsplash.com/photo-1421992908452-9d47eb2b68d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
       },
       {
         "id": 11,
@@ -98,7 +108,8 @@
         "price": "120000.00",
         "description": "현대식 기관단총 한정판",
         "how_to_use": "사용방법",
-        "images": "/images/product/11.png"
+        "images": "/images/product/11.png",
+        "lazy_image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 12,
@@ -107,7 +118,8 @@
         "price": "50000.00",
         "description": "체력 보충엔 에너지 드링크!",
         "how_to_use": "사용방법",
-        "images": "/images/product/12.png"
+        "images": "/images/product/12.png",
+        "lazy_image": "https://images.unsplash.com/photo-1581469096017-fb6aa4fba63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 13,
@@ -116,7 +128,8 @@
         "price": "10000.00",
         "description": "통증을 느낄 경우 그 통증을 경감시키기 위해 사용하는 약",
         "how_to_use": "사용방법",
-        "images": "/images/product/13.png"
+        "images": "/images/product/13.png",
+        "lazy_image": "https://images.unsplash.com/photo-1421992908452-9d47eb2b68d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
       },
       {
         "id": 14,
@@ -125,7 +138,8 @@
         "price": "150000.00",
         "description": "먼 곳의 사물을 관측할 때 이용하는 광학기구",
         "how_to_use": "사용방법",
-        "images": "/images/product/14.png"
+        "images": "/images/product/14.png",
+        "lazy_image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 15,
@@ -134,7 +148,8 @@
         "price": "50000.00",
         "description": "야간 투시 장비",
         "how_to_use": "사용방법",
-        "images": "/images/product/15.png"
+        "images": "/images/product/15.png",
+        "lazy_image": "https://images.unsplash.com/photo-1581469096017-fb6aa4fba63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 16,
@@ -143,7 +158,8 @@
         "price": "50000.00",
         "description": "총탄/파편 등으로부터 머리를 보호하기 위해 특수제작된 보호구",
         "how_to_use": "사용방법",
-        "images": "/images/product/16.png"
+        "images": "/images/product/16.png",
+        "lazy_image": "https://images.unsplash.com/photo-1421992908452-9d47eb2b68d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
       },
       {
         "id": 17,
@@ -152,7 +168,8 @@
         "price": "750000.00",
         "description": "총탄/파편 등으로부터 보호하기 위해 특수제작된 보호구. 성능이 더 뛰어나다.",
         "how_to_use": "사용방법",
-        "images": "/images/product/17.png"
+        "images": "/images/product/17.png",
+        "lazy_image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 18,
@@ -161,7 +178,8 @@
         "price": "750000.00",
         "description": "총탄/파편 등으로부터 몸통을 보호하기 위해 특수제작된 보호구",
         "how_to_use": "사용방법",
-        "images": "/images/product/18.png"
+        "images": "/images/product/18.png",
+        "lazy_image": "https://images.unsplash.com/photo-1581469096017-fb6aa4fba63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 19,
@@ -170,7 +188,8 @@
         "price": "750000.00",
         "description": "총탄/파편 등으로부터 몸통을 보호하기 위해 특수제작된 보호구. 성능이 더 뛰어나다.",
         "how_to_use": "사용방법",
-        "images": "/images/product/19.png"
+        "images": "/images/product/19.png",
+        "lazy_image": "https://images.unsplash.com/photo-1421992908452-9d47eb2b68d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
       },
       {
         "id": 20,
@@ -179,7 +198,8 @@
         "price": "20000.00",
         "description": "입에 침이 마르고 심장박동이 빨라진다.",
         "how_to_use": "사용방법",
-        "images": "/images/product/20.png"
+        "images": "/images/product/20.png",
+        "lazy_image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 21,
@@ -188,7 +208,8 @@
         "price": "350000.00",
         "description": "최후의 진통제.",
         "how_to_use": "사용방법",
-        "images": "/images/product/21.png"
+        "images": "/images/product/21.png",
+        "lazy_image": "https://images.unsplash.com/photo-1581469096017-fb6aa4fba63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 22,
@@ -197,7 +218,8 @@
         "price": "50000.00",
         "description": "맛 좋은 녀석 아무리 먹어도 질리지 않는다",
         "how_to_use": "사용방법",
-        "images": "/images/product/22.png"
+        "images": "/images/product/22.png",
+        "lazy_image": "https://images.unsplash.com/photo-1421992908452-9d47eb2b68d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
       },
       {
         "id": 23,
@@ -206,7 +228,8 @@
         "price": "300000.00",
         "description": "엄청나게 긴 유통기한때문에 비싸다",
         "how_to_use": "사용방법",
-        "images": "/images/product/23.png"
+        "images": "/images/product/23.png",
+        "lazy_image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 24,
@@ -215,7 +238,8 @@
         "price": "730000.00",
         "description": "비가 올 때는 역시 판초우의",
         "how_to_use": "사용방법",
-        "images": "/images/product/24.png"
+        "images": "/images/product/24.png",
+        "lazy_image": "https://images.unsplash.com/photo-1581469096017-fb6aa4fba63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       },
       {
         "id": 25,
@@ -224,7 +248,8 @@
         "price": "100000.00",
         "description": "숨고싶을 때는 이것을",
         "how_to_use": "사용방법",
-        "images": "/images/product/25.png"
+        "images": "/images/product/25.png",
+        "lazy_image": "https://images.unsplash.com/photo-1421992908452-9d47eb2b68d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80"
       },
       {
         "id": 26,
@@ -233,7 +258,8 @@
         "price": "100000.00",
         "description": "숨고싶을 때는 이것을",
         "how_to_use": "사용방법",
-        "images": "/images/product/26.png"
+        "images": "/images/product/26.png",
+        "lazy_image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
       }
     ]
   ]

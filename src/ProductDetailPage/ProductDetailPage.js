@@ -65,11 +65,7 @@ function ProductDetailPage() {
         <ProductDetailInfo productDetail={productDetail} />
       </div>
 
-      <img
-        className="lazyImg"
-        alt="img"
-        src="https://images.unsplash.com/photo-1580741569354-08feedd159f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-      />
+      <img className="lazyImg" alt="img" src={productDetail.lazy_image} />
 
       <div className="productList">
         <button className="arrow" onClick={handleLeftClick}>
